@@ -4,8 +4,12 @@
 }
 #btn2{margin-left: 20px;}
 h1{
-    color: blueviolet;
+    color: blue;
+    font-family:fantasy;
 }
 #exampleModalLabel{
     font-weight: bold;
+}
+.locationDetails{
+    font-family: cursive;
 }

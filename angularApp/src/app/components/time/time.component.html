@@ -1,9 +1,9 @@
 <div id="page" *ngIf="location!=null">
 
     <h1>The current location of the space station is:</h1>
-    <p>timestamp :{{location['timestamp']}}</p>
-    <p>latitude :{{location['iss_position'].latitude}}</p>
-    <p>longitude :{{location['iss_position'].longitude}}</p>
+    <p class="locationDetails" style="color: #ff9900;">timestamp :{{location['timestamp']}}</p>
+    <p class="locationDetails" style="color:#0da512">latitude :{{location['iss_position'].latitude}}</p>
+    <p class="locationDetails" style="color:#fbd416">longitude :{{location['iss_position'].longitude}}</p>
 
 
 
@@ -30,7 +30,7 @@
         </tbody>
     </table>
 
-    <button type="button" class="btn btn-success" (click)="saveLocations()">save locations</button>
+    <button type="button" class="btn btn-success btn-lg" (click)="saveLocations()">save locations</button>
 
 
 
