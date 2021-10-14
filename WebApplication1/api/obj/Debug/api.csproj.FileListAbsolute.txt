@@ -14,7 +14,12 @@ C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\bin\System.Web.
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\bin\System.Web.Http.Cors.xml
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\bin\Newtonsoft.Json.xml
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\bin\System.Web.Http.WebHost.xml
-C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\obj\Debug\api.csprojResolveAssemblyReference.cache
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\obj\Debug\api.csproj.CoreCompileInputs.cache
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\obj\Debug\api.dll
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\obj\Debug\api.pdb
+C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\obj\Debug\api.csprojAssemblyReference.cache
+C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\bin\BL.dll
+C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\bin\Dal.dll
+C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\bin\BL.pdb
+C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\bin\Dal.pdb
+C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\api\obj\Debug\api.csproj.CopyComplete

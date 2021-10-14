@@ -1,6 +1,5 @@
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\Dal\bin\Debug\Dal.dll
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\Dal\bin\Debug\Dal.pdb
-C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\Dal\obj\Debug\Dal.dll
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\Dal\obj\Debug\Dal.pdb

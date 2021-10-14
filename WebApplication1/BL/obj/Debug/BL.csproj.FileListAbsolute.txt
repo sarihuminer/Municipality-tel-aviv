@@ -4,7 +4,8 @@ C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\BL\bin\Debug\Dal.dl
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\BL\bin\Debug\Newtonsoft.Json.dll
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\BL\bin\Debug\Dal.pdb
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\BL\bin\Debug\Newtonsoft.Json.xml
-C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\BL\obj\Debug\BL.csprojAssemblyReference.cache
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\BL\obj\Debug\BL.csproj.CopyComplete
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\BL\obj\Debug\BL.dll
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\BL\obj\Debug\BL.pdb

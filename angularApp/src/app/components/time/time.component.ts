@@ -12,10 +12,8 @@ export class TimeComponent implements OnInit {
   location: any;
   id: any;
   flagmodal = false;
+  describtion: string;
   listLocation: MyLocation[] = [
-    new MyLocation("123.123", "456.258", "123121"),
-    new MyLocation("456.15", "8989.565", "5645"),
-    new MyLocation("546.12", "5466.213", "87977"),
   ]
 
   constructor(private timeService: TimeService) { }
@@ -29,9 +27,10 @@ export class TimeComponent implements OnInit {
 
   }
   //when adding new row to list
-  addnewLocation() {
-    this.newLocation = { latitude: "123.5464", longitude: "123.1213", timestamp: "1231" };
+  saveDialogData() {
+    debugger;
     this.listLocation = [...this.listLocation, this.newLocation]
+    this.closeDialog();
   }
 
   getLocatin() {
@@ -42,19 +41,21 @@ export class TimeComponent implements OnInit {
 
   showDialog() {
     this.flagmodal = true;
-    // let modal_t = document.getElementById('modal_1')
-    // modal_t.classList.remove('hhidden')
-    // modal_t.classList.add('sshow');
+    this.newLocation = {
+      latitude: this.location['iss_position'].latitude,
+      longitude: this.location['iss_position'].longitude,
+      timestamp: this.location['timestamp'],
+      note: ""
+    }
   }
   closeDialog() {
     this.flagmodal = false;
-    // let modal_t = document.getElementById('modal_1')
-    // modal_t.classList.remove('sshow')
-    // modal_t.classList.add('hhidden');
+
   }
-  ngOnDestroy() {
-    // if (this.id) {
-    //   clearInterval(this.id);
+  saveLocations() {
+    this.timeService.saveLocation(this.listLocation).subscribe(res => {
+      console.log("succses!")
+    }, err => { console.log("err") })
   }
 }
   // this.timeService.getLocation().pipe(

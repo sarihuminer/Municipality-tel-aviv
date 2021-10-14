@@ -14,7 +14,9 @@ namespace BL
         public static void SaveNewRecord(List<Location> newLocations)
         {
             string json = JsonConvert.SerializeObject(newLocations);
-            File.WriteAllText("LocationList.json", json);
+            string CurrentDirectory = AppDomain.CurrentDomain.BaseDirectory.Replace("api\\", "BL\\locationData.json");
+
+            File.WriteAllText(CurrentDirectory, json);
         }
     }
 }
