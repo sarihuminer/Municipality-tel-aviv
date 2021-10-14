@@ -6,19 +6,21 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './components/user/user.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { ModalComponent } from './components/modal/modal.component';
 import { TimeComponent } from './components/time/time.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
-    TimeComponent
+    TimeComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
