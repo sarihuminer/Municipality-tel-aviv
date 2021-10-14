@@ -3,3 +3,4 @@ C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\Dal\bin\Debug\Dal.p
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\Dal\obj\Debug\Dal.dll
 C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\Dal\obj\Debug\Dal.pdb
+C:\Users\sari\Documents\Municipality TELAVIV\WebApplication1\Dal\obj\Debug\Dal.csprojAssemblyReference.cache

@@ -68,21 +68,10 @@ export class TimeComponent implements OnInit {
   // })
 
 
-  // this.timeService.getLocation().subscribe(res => {
-
-  //   res.map(result => {
-  //     debugger;
-  //     this.location = Object.assign(new MyLocation(), result)
-  //   })
 
 
 
-  //this.location = res;
-  // debugger;
-  // this.location.latitude = res['iss_position'].latitude;
-  // this.location.longitude = res['iss_position'].longitude;
-  // this.location.timestamp = res['timestamp'];
-  // { err => console.log("err") }
+
 
 
 

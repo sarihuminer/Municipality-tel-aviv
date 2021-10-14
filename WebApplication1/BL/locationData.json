@@ -1,12 +1,1 @@
-[
-  {
-    "timestamp": 1634241231,
-    "latitude": -51.5312,
-    "longitude": 63.6978
-  },
-  {
-    "timestamp": 1634241237,
-    "latitude": -51.5053,
-    "longitude": 64.293
-  }
-]
+[{"timestamp":1634248844,"latitude":33.2014,"longitude":148.074,"note":"new location"},{"timestamp":1634248898,"latitude":35.5069,"longitude":151.034,"note":"nice to see"},{"timestamp":1634248908,"latitude":35.9245,"longitude":151.6018,"note":"we love angular "},{"timestamp":1634249133,"latitude":44.3076,"longitude":166.2627,"note":"what a nice web"},{"timestamp":1634249133,"latitude":44.3076,"longitude":166.2627,"note":"what a nice web"},{"timestamp":1634249133,"latitude":44.3076,"longitude":166.2627,"note":"what a nice web"},{"timestamp":1634249231,"latitude":47.1884,"longitude":173.9671,"note":"the time is good!"},{"timestamp":1634249133,"latitude":44.3076,"longitude":166.2627,"note":"what a nice web"},{"timestamp":1634249231,"latitude":47.1884,"longitude":173.9671,"note":"the time is good!"},{"timestamp":1634249783,"latitude":49.1828,"longitude":-133.6097,"note":"have a good day!"}]
