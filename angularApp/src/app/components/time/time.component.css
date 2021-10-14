@@ -13,3 +13,15 @@ h1{
 .locationDetails{
     font-family: cursive;
 }
+#m{
+    font-weight: bold;
+    color: #0da512;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#m2{
+    font-weight: bold;
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+}

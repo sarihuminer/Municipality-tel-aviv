@@ -14,9 +14,12 @@ namespace api.Controllers
     public class LocationController : ApiController
     {
         // POST: api/Location
-        public void Post([FromBody]List<Location> locations)
+        public bool Post([FromBody]List<Location> locations)
         {
+            if (locations.Count() == 0)
+                return false;
             BL.LocationBL.SaveNewRecord(locations);
+            return true;
         }
 
        

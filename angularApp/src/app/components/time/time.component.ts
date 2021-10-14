@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, QueryList, Renderer2, ViewChild, ViewChildren } from '@angular/core';
 import { MyLocation } from 'src/app/models/MyLocation.model';
 import { TimeService } from 'src/app/servises/time.service';
 import { map } from 'rxjs/operators';
@@ -16,7 +16,9 @@ export class TimeComponent implements OnInit {
   listLocation: MyLocation[] = [
   ]
 
-  constructor(private timeService: TimeService) { }
+  constructor(private timeService: TimeService, private renderer: Renderer2) { }
+  @ViewChild('message') message: ElementRef
+
 
   ngOnInit(): void {
 
@@ -28,9 +30,9 @@ export class TimeComponent implements OnInit {
   }
   //when adding new row to list
   saveDialogData() {
-    debugger;
     this.listLocation = [...this.listLocation, this.newLocation]
     this.closeDialog();
+    debugger
   }
 
   getLocatin() {
@@ -54,7 +56,16 @@ export class TimeComponent implements OnInit {
   }
   saveLocations() {
     this.timeService.saveLocation(this.listLocation).subscribe(res => {
-      console.log("succses!")
+      debugger
+      if (res == true) {
+        this.renderer.setProperty(this.message.nativeElement, 'innerHTML', '<p id="m">Data saved successfully!<p>');
+        console.log("succses!");
+      }
+      else {
+        this.renderer.setProperty(this.message.nativeElement, 'innerHTML', '<p id="m2">No data send!<p>');
+        console.log("no data saved!");
+      }
+
     }, err => { console.log("err") })
   }
 }
